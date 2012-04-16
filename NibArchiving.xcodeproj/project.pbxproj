@@ -15,6 +15,7 @@
 		A5C36C51153C1B2F005BB503 /* DHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C36C50153C1B2F005BB503 /* DHDAppDelegate.m */; };
 		A5C36C54153C1B2F005BB503 /* DHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C36C53153C1B2F005BB503 /* DHDViewController.m */; };
 		A5C36C57153C1B2F005BB503 /* DHDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C36C55153C1B2F005BB503 /* DHDViewController.xib */; };
+		A5C36C69153C1C64005BB503 /* SomeNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C36C68153C1C64005BB503 /* SomeNib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		A5C36C40153C1B2E005BB503 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5C36C42153C1B2E005BB503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5C36C44153C1B2E005BB503 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A5C36C48153C1B2E005BB503 /* NibArchiving-Info.plist */ = {isa = PBXFileReference; path = "NibArchiving-Info.plist"; sourceTree = "<group>"; };
+		A5C36C48153C1B2E005BB503 /* NibArchiving-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NibArchiving-Info.plist"; sourceTree = "<group>"; };
 		A5C36C4A153C1B2E005BB503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5C36C4C153C1B2E005BB503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5C36C4E153C1B2E005BB503 /* NibArchiving-Prefix.pch */ = {isa = PBXFileReference; path = "NibArchiving-Prefix.pch"; sourceTree = "<group>"; };
-		A5C36C4F153C1B2E005BB503 /* DHDAppDelegate.h */ = {isa = PBXFileReference; path = DHDAppDelegate.h; sourceTree = "<group>"; };
+		A5C36C4E153C1B2E005BB503 /* NibArchiving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NibArchiving-Prefix.pch"; sourceTree = "<group>"; };
+		A5C36C4F153C1B2E005BB503 /* DHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDAppDelegate.h; sourceTree = "<group>"; };
 		A5C36C50153C1B2F005BB503 /* DHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDAppDelegate.m; sourceTree = "<group>"; };
-		A5C36C52153C1B2F005BB503 /* DHDViewController.h */ = {isa = PBXFileReference; path = DHDViewController.h; sourceTree = "<group>"; };
+		A5C36C52153C1B2F005BB503 /* DHDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDViewController.h; sourceTree = "<group>"; };
 		A5C36C53153C1B2F005BB503 /* DHDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDViewController.m; sourceTree = "<group>"; };
 		A5C36C56153C1B2F005BB503 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DHDViewController.xib; sourceTree = "<group>"; };
+		A5C36C68153C1C64005BB503 /* SomeNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeNib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A5C36C53153C1B2F005BB503 /* DHDViewController.m */,
 				A5C36C55153C1B2F005BB503 /* DHDViewController.xib */,
 				A5C36C47153C1B2E005BB503 /* Supporting Files */,
+				A5C36C68153C1C64005BB503 /* SomeNib.xib */,
 			);
 			path = NibArchiving;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				A5C36C4B153C1B2E005BB503 /* InfoPlist.strings in Resources */,
 				A5C36C57153C1B2F005BB503 /* DHDViewController.xib in Resources */,
+				A5C36C69153C1C64005BB503 /* SomeNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				A5C36C5C153C1B2F005BB503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

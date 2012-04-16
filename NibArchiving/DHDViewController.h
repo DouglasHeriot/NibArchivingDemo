@@ -10,4 +10,7 @@
 
 @interface DHDViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *stuff;
+@property UIView *last;
+
 @end
